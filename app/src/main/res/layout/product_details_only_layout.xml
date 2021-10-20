@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:elevation="3dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:id="@+id/product_details_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/products_detail_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#DBDBDB"
+        android:padding="16dp"
+        android:text="Product Details"
+        android:textColor="#6F6F6F"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/product_details_body"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="The OnePlus 6T is basically the OnePlus 6 with a smaller notch, bigger battery and an in-display fingerprint sensor. It doesn’t make sense for the present users for the OnePlus 6 to upgrade at all, but if you’re on an older OnePlus phone, this one is something to look out for. The 64GB variant is no longer offered by the company, so the base price is now higher. It’s also all about pure speed which no other Android flagship comes close to. It is only the Apple devices that seem to be faster in both benchmarks and daily use, but they cost more than twice the price of the OnePlus 6T. However, if you’re planning to purchase a high-end phone mostly for gaming, you could save your money and buy the Poco F1. If you’re looking for high-end smartphone with an excellent display and incredible audio output, the LG G7+ ThinQ is the one to get. The OnePlus 6T is a sensible upgrade for those who need the incredible speed and the amazing battery life, along with being okay with having ‘above-average’ of everything else. It’s not at all disappointing a disappointing smartphone, but definitely lacks some of the bells and whistles found on other smartphones at this price, such as the LG G7+ ThinQ. OnePlus is no longer the only one playing the flagship killer game, and that is a great thing for us, the consumers."
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/products_detail_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

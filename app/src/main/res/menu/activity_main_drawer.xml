@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group  android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/emarket_black"
+            android:title="eMarket" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/local_mall_black"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/my_reward"
+            android:title="My Rewards" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/shopping_cart_black"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/my_wishlist"
+            android:title="My Wishlist" />
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/person_black"
+            android:title="My Account" />
+
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/signout_black"
+            android:title="Sign Out" />
+    </group>
+
+
+
+</menu>

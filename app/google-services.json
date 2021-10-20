@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "801062246122",
+    "firebase_url": "https://emarket-8fbb8.firebaseio.com",
+    "project_id": "emarket-8fbb8",
+    "storage_bucket": "emarket-8fbb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801062246122:android:eb401f34bbfcef76c1a993",
+        "android_client_info": {
+          "package_name": "com.example.emarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801062246122-u300n3qmclpm37t94tm5pl9rlji8vg1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emarket",
+            "certificate_hash": "f95e2ccc06057b16f1588a8ac0ba0f93ee5bcb38"
+          }
+        },
+        {
+          "client_id": "801062246122-h6ve2471fo3otp9du6jlpj2gdlcb7h0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnATMM0Zo0dCe-x9ARd8-wK3l2tIzlMis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801062246122-h6ve2471fo3otp9du6jlpj2gdlcb7h0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
